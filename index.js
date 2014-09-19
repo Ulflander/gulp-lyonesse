@@ -31,8 +31,7 @@ module.exports = function (options) {
 
         jessy.fromString(f.contents.toString('utf-8'), options, function(err, result) {
             if (!!err) {
-            self.emit('error', new PluginError('gulp-jessy', 
-                'Streaming not supported'));
+                self.emit('error', new PluginError('gulp-jessy', err));
             }
 
             f.contents = new Buffer(result);
