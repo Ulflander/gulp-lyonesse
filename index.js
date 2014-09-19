@@ -36,7 +36,8 @@ module.exports = function (options) {
             }
 
             f.contents = new Buffer(result);
-            f.path = f.path.replace(/\.jess$/gi, '.' + options.target);
+            f.path = f.path.replace(/\.jess$/gi, '.' + options.target)
+                .replace(/\.jessy$/gi, '.' + options.target);
             self.push(f);
             cb();
         });
