@@ -7,6 +7,14 @@ View [Jessy](https://github.com/Ulflander/jessy) to know what is Jessy and how t
 
 Released under MIT License.
 
+
+## Install
+
+```
+npm install --save-dev gulp-jessy
+```
+
+
 ## Examples
 
 #### To Sass file
