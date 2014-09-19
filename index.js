@@ -33,7 +33,7 @@ module.exports = function (options) {
                 'Streaming not supported'));
             }
 
-            f.contents = result;
+            f.contents = new Buffer(result);
             f.path = f.path.replace(/\.jess$/gi, '.' + options.target);
             this.push(f);
             cb();
