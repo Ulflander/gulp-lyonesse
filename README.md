@@ -3,7 +3,13 @@ gulp-jessy
 
 Convert Jessy files to Sass and/or Js as part as your gulp build process.
 
-### To Sass file
+View [Jessy](https://github.com/Ulflander/jessy) to know what is Jessy and how to use it.
+
+Released under MIT License.
+
+## Examples
+
+#### To Sass file
 
 This task will create a `styles.scss` file in `tmp/`.
 
@@ -20,7 +26,7 @@ gulp.task('jessy-to-js', function() {
 });
 ```
 
-### To Js file
+#### To Js file
 
 This task will create a `styles.js` file in `tmp/`.
 
@@ -36,3 +42,9 @@ gulp.task('jessy-to-js', function() {
         .pipe(gulp.dest('tmp/'));
 });
 ```
+
+## Options
+
+- `symbol`: default `'$'` - Specifies prefix of Sass variables
+- `target`: `'scss'` or `'js'`, default `'js'` - Specifies compilation target when using `fromFile` and `fromString` functions
+- `namespace`: default `null`
