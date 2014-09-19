@@ -9,13 +9,15 @@ var through = require('through2'),
 module.exports = function (options) {
 
     function write (f, enc, cb){
+        var self = this;
+
         if (f.isNull()) {
-            this.push(file);
+            self.push(file);
             return cb();
         }
 
         if (f.isStream()) {
-            this.emit('error', new PluginError('gulp-jessy', 
+            self.emit('error', new PluginError('gulp-jessy', 
                 'Streaming not supported'));
             return cb();
         }
@@ -29,13 +31,13 @@ module.exports = function (options) {
 
         jessy.fromString(f.contents.toString('utf-8'), options, function(err, result) {
             if (!!err) {
-            this.emit('error', new PluginError('gulp-jessy', 
+            self.emit('error', new PluginError('gulp-jessy', 
                 'Streaming not supported'));
             }
 
             f.contents = new Buffer(result);
             f.path = f.path.replace(/\.jess$/gi, '.' + options.target);
-            this.push(f);
+            self.push(f);
             cb();
         });
     }
