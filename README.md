@@ -25,7 +25,7 @@ This task will create a `styles.scss` file in `tmp/`.
 var gulp = require('gulp'),
     jessy = require('gulp-jessy');
 
-gulp.task('jessy-to-js', function() {
+gulp.task('jessy-to-scss', function() {
     return gulp.src('src/styles.jessy')
         .pipe(jessy({
             target      : 'scss'
