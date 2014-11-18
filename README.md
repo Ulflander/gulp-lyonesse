@@ -57,3 +57,7 @@ gulp.task('jessy-to-js', function() {
 - `target`: `'scss'` or `'js'`, default `'js'` - Specifies compilation target when using `fromFile` and `fromString` functions
 - `namespace`: default `null`
 - `closure`: default `false` - For JS only, enclose result in a closure (nested namespaces only)
+
+## Changelog
+
+- 0.1.8: Update Jessy to 0.1.2
