@@ -1,6 +1,6 @@
 {
   "name": "gulp-jessy",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Convert Jessy files to Scss and/or Js from Gulp",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Ulflander/gulp-jessy",
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "jessy": "^0.2.0",
+    "jessy": "^0.2.1",
     "through2": "^0.6.1"
   }
 }
