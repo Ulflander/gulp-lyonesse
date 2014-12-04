@@ -61,3 +61,4 @@ gulp.task('jessy-to-js', function() {
 ## Changelog
 
 - 0.1.9: Update Jessy to 0.1.2
+- 0.1.10: Update Jessy to 0.1.3
