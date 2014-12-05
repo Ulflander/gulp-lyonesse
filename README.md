@@ -1,9 +1,9 @@
-gulp-jessy
+gulp-lyonesse
 ==========
 
-Convert Jessy files to Sass and/or Js as part as your gulp build process.
+Convert Lyonesse files to Sass and/or Js as part as your gulp build process.
 
-View [Jessy](https://github.com/Ulflander/jessy) to know what is Jessy and how to use it.
+View [Lyonesse](https://github.com/Ulflander/lyonesse) to know what is Lyonesse and how to use it.
 
 Released under MIT License.
 
@@ -11,7 +11,7 @@ Released under MIT License.
 ## Install
 
 ```
-npm install --save-dev gulp-jessy
+npm install --save-dev gulp-lyonesse
 ```
 
 
@@ -23,11 +23,11 @@ This task will create a `styles.scss` file in `tmp/`.
 
 ```
 var gulp = require('gulp'),
-    jessy = require('gulp-jessy');
+    lyonesse = require('gulp-lyonesse');
 
-gulp.task('jessy-to-scss', function() {
-    return gulp.src('src/styles.jessy')
-        .pipe(jessy({
+gulp.task('lyonesse-to-scss', function() {
+    return gulp.src('src/styles.lyonesse')
+        .pipe(lyonesse({
             target      : 'scss'
         }))
         .pipe(gulp.dest('tmp/'));
@@ -40,11 +40,11 @@ This task will create a `styles.js` file in `tmp/`.
 
 ```
 var gulp = require('gulp'),
-    jessy = require('gulp-jessy');
+    lyonesse = require('gulp-lyonesse');
 
-gulp.task('jessy-to-js', function() {
-    return gulp.src('src/styles.jessy')
-        .pipe(jessy({
+gulp.task('lyonesse-to-js', function() {
+    return gulp.src('src/styles.lyonesse')
+        .pipe(lyonesse({
             target      : 'js'
         }))
         .pipe(gulp.dest('tmp/'));
@@ -60,6 +60,7 @@ gulp.task('jessy-to-js', function() {
 
 ## Changelog
 
-- 0.1.9: Update Jessy to 0.1.2
-- 0.1.10: Update Jessy to 0.1.3
-- 0.2.0: Update Jessy to 0.2.0
+- 0.1.9: Update Lyonesse to 0.1.2
+- 0.1.10: Update Lyonesse to 0.1.3
+- 0.2.0: Update Lyonesse to 0.2.0
+- 0.3.0: Rebranding! Udate Lyonesse to 0.3.0

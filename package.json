@@ -1,17 +1,17 @@
 {
-  "name": "gulp-jessy",
+  "name": "gulp-lyonesse",
   "version": "0.2.1",
-  "description": "Convert Jessy files to Scss and/or Js from Gulp",
+  "description": "Convert Lyonesse files to Scss and/or Js from Gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ulflander/gulp-jessy.git"
+    "url": "https://github.com/Ulflander/gulp-lyonesse.git"
   },
   "keywords": [
-    "Jessy",
+    "Lyonesse",
     "Gulp",
     "Sass",
     "Js"
@@ -19,12 +19,12 @@
   "author": "Ulflander",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ulflander/gulp-jessy/issues"
+    "url": "https://github.com/Ulflander/gulp-lyonesse/issues"
   },
-  "homepage": "https://github.com/Ulflander/gulp-jessy",
+  "homepage": "https://github.com/Ulflander/gulp-lyonesse",
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "jessy": "^0.2.1",
+    "lyonesse": "^0.2.1",
     "through2": "^0.6.1"
   }
 }
