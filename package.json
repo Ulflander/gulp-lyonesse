@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Ulflander/gulp-lyonesse",
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "lyonesse": "^0.2.1",
+    "lyonesse": "^0.3.0",
     "through2": "^0.6.1"
   }
 }
