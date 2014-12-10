@@ -1,6 +1,6 @@
 {
   "name": "gulp-lyonesse",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Convert Lyonesse files to Scss and/or Js from Gulp",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Ulflander/gulp-lyonesse",
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "lyonesse": "^0.3.0",
+    "lyonesse": "^0.3.1",
     "through2": "^0.6.1"
   }
 }
